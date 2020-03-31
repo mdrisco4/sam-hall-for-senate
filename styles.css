@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(87, 165, 226);
+    height: auto;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.header-logo {
+    width: 20%;
+    margin-left: 20%;
+}
+
+body {
+    background-color: rgb(50, 117, 171);
+    margin: 0;
+}
+
+.city{
+    width: 100%;
+}
+
+.footer-logo {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+}
