@@ -1,3 +1,5 @@
+
+
 header {
     background-color: rgb(87, 165, 226);
     height: auto;
@@ -21,6 +23,7 @@ header {
     height: 60px;
     font-size: 24px;
     background-color: rgb(228, 93, 88);
+    margin-top: 2%;
 }
 
 body {
@@ -28,8 +31,11 @@ body {
     margin: 0;
 }
 
-.main {
+main {
     margin: 0;
+    background-image: url('./images/18604371049_c3763aa154_o.jpg');
+    background-size: contain;
+    /* width: 100%; */
 }
 
 .city-image-container {
@@ -51,34 +57,40 @@ body {
 }
 
 .headshot {
-    z-index: 2;
+    /* z-index: 1; */
     width: 36.359%;
-    position: relative;
+    /* position: relative; */
 }
 
 .text {
-    z-index: 1;
+    /* z-index: 1; */
     width: 360px;
     font-size: 48px;
-    position: relative;
+    /* position: relative; */
+    color: rgb(50, 117, 171);
+}
+
+.off-color-text {
+    color: rgb(87, 165, 226);
 }
 
 .sign-up {
-    z-index: 1;
+    /* z-index: 1; */
     height: 100px;
     width: 80%;
     font-size: 24px;
     background-color: rgba(255, 255, 255, .9);
-    position: relative;
-    /* border: 2px solid black; */
+    /* position: relative; */
+    color: rgb(87, 165, 226);
 }
 
 .sign-up-prompt {
     font-size: 10px;
+    color: black;
 }
 
 footer {
-    position: static;
+    /* position: static; */
 }
 
 .footer-logo {
@@ -108,7 +120,7 @@ footer {
     color: white;
     border: 1px solid white;
     text-align: center;
-    width: 33%;
+    width: 260px;
     margin-left: auto;
     margin-right: auto;
     font-size: 10px;
