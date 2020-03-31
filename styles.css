@@ -36,9 +36,24 @@ body {
     height: auto;
 }
 
+.main-all-container {
+    display: flex;
+    /* padding-left: 15%; */
+}
+
+.main-text-container {
+    margin-top: 10%;
+}
+
 .city{
     width: 100%;
     position: absolute;
+}
+
+.headshot {
+    z-index: 2;
+    width: 36.359%;
+    position: relative;
 }
 
 .text {
@@ -51,7 +66,7 @@ body {
 .sign-up {
     z-index: 1;
     height: 100px;
-    width: 280px;
+    width: 80%;
     font-size: 24px;
     background-color: rgba(255, 255, 255, .9);
     position: relative;
