@@ -18,17 +18,18 @@ header {
 
 .fa {
     color: white;
-    padding-top: 30px;
+    padding-top: 3.5%;
 }
 
 .donate {
     color: white;
     text-align: center;
-    width: 15%;
-    height: 60px;
+    width: 17.5%;
+    height: 28px;
     font-size: 24px;
     background-color: rgb(228, 93, 88);
-    margin-top: 2%;
+    margin-top: 1.6%;
+    padding: 20px 0;
 }
 
 body {
@@ -61,10 +62,16 @@ main {
 .main-all-container {
     display: flex;
     /* padding-left: 15%; */
+    border: 4px solid black;
+    position: relative;
 }
 
 .main-text-container {
     margin-top: 10%;
+    border: 1px solid green;
+    position: relative;
+    margin-left: 15%;
+    width: 40%
 }
 
 .city{
@@ -83,7 +90,9 @@ main {
     width: 360px;
     font-size: 48px;
     position: relative;
+    margin-top: 100px;
     color: rgb(50, 117, 171);
+    border: 1px solid red;
 }
 
 .off-color-text {
@@ -92,17 +101,44 @@ main {
 
 .sign-up {
     z-index: 1;
-    height: 100px;
+    height: 150px;
     width: 80%;
     font-size: 24px;
     background-color: rgba(255, 255, 255, .9);
     position: relative;
     color: rgb(87, 165, 226);
+    border: 1px solid yellow;
 }
 
 .sign-up-prompt {
     font-size: 10px;
     color: black;
+    border: 1px solid blue;
+}
+
+.form-container {
+    display: flex;
+}
+
+.email {
+  font-size: 12px;
+  width: 150px;
+  border: 1px solid purple;
+}
+
+.zip {
+  font-size: 12px;
+  width: 45px;
+  border: 1px solid purple;
+}
+
+.join-button {
+    font-size: 12px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    background-color: rgb(232, 143, 93);
+    border: 1px solid purple;
 }
 
 footer {
