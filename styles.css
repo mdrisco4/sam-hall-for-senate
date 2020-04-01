@@ -17,7 +17,7 @@ header {
 
 .fa {
     color: white;
-    padding-top: 12%;
+    padding-top: 7%;
     border: 1px solid yellowgreen;
   }
 
@@ -36,13 +36,13 @@ header {
 .donate {
     color: white;
     text-align: center;
-    width: 240px;
+    width: 280px;
     height: 90px;
-    font-size: 24px;
+    font-size: 54px;
     background-color: rgb(228, 93, 88);
-    margin-top: 6%;
+    margin-top: 3.4%;
     margin-left: 10px;
-    padding: 20px 0;
+    padding: 24px 0;
     border-radius: 6px;
     border: 1px solid magenta;
   }
@@ -87,7 +87,7 @@ main {
   }
 
   .main-text-container {
-    margin-top: 12%;
+    margin-top: 6%;
     border: 1px solid green;
     position: relative;
     margin-left: 4%;
@@ -204,7 +204,7 @@ main {
 
 
 
-/* 
+
 @media (min-width: 800px) {
   header {
     background-color: rgb(87, 165, 226);
@@ -488,4 +488,4 @@ main {
     width: 90px;
     font-size: 27px;
   }
-} */
+}
