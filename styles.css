@@ -16,6 +16,11 @@ header {
     margin-left: 20%;
 }
 
+.fa {
+    color: white;
+    padding-top: 30px;
+}
+
 .donate {
     color: white;
     text-align: center;
@@ -33,9 +38,20 @@ body {
 
 main {
     margin: 0;
-    background-image: url('./images/18604371049_c3763aa154_o.jpg');
+    /* background-image: url('./images/18604371049_c3763aa154_o.jpg'); */
     background-size: contain;
+    /* height: 400px; */
     /* width: 100%; */
+    /* clip: rect(0px, 0px, 100px, 0px); */
+    overflow: hidden;
+    /* border-bottom: -200px solid rgb(50, 117, 171);
+    margin-bottom: -200px solid rgb(50, 117, 171);
+    padding-bottom: -200px; */
+}
+
+.bottom-crop {
+    /* max-height: 450px;
+    overflow: hidden; */
 }
 
 .city-image-container {
@@ -57,16 +73,16 @@ main {
 }
 
 .headshot {
-    /* z-index: 1; */
+    z-index: 1;
     width: 36.359%;
-    /* position: relative; */
+    position: relative;
 }
 
 .text {
-    /* z-index: 1; */
+    z-index: 1;
     width: 360px;
     font-size: 48px;
-    /* position: relative; */
+    position: relative;
     color: rgb(50, 117, 171);
 }
 
@@ -75,12 +91,12 @@ main {
 }
 
 .sign-up {
-    /* z-index: 1; */
+    z-index: 1;
     height: 100px;
     width: 80%;
     font-size: 24px;
     background-color: rgba(255, 255, 255, .9);
-    /* position: relative; */
+    position: relative;
     color: rgb(87, 165, 226);
 }
 
@@ -90,7 +106,7 @@ main {
 }
 
 footer {
-    /* position: static; */
+    /* border-top: 200px solid rgb(50, 117, 171); */
 }
 
 .footer-logo {
