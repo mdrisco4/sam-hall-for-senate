@@ -5,31 +5,55 @@ header {
     height: auto;
     margin: 0;
     padding: 10px 0;
+    border: 2px solid black;
 }
 
 .header-elements-container {
     display: flex;
+    border: 2px solid red;
 }
+
+/* .header-right {
+    display: flex;
+} */
 
 .header-logo {
     width: 20%;
     margin-left: 20%;
+    border: 1px solid blue;
 }
 
 .fa {
     color: white;
-    padding-top: 3.5%;
+    padding-top: 3.8%;
+    border: 1px solid yellowgreen;
+}
+
+.fa-twitter {
+    margin-left: 24%;
+    margin-right: 10px;
+}
+
+.fa-facebook {
+    /* margin-right: 100px; */
+}
+
+.fa-money-bill-wave {
+    transform: rotate(135deg)
 }
 
 .donate {
     color: white;
     text-align: center;
-    width: 17.5%;
+    width: 180px;
     height: 28px;
     font-size: 24px;
     background-color: rgb(228, 93, 88);
-    margin-top: 1.6%;
+    margin-top: 2.4%;
+    margin-left: 10px;
     padding: 20px 0;
+    border-radius: 6px;
+    border: 1px solid magenta;
 }
 
 body {
@@ -70,7 +94,7 @@ main {
     margin-top: 10%;
     border: 1px solid green;
     position: relative;
-    margin-left: 15%;
+    margin-left: 12%;
     width: 40%
 }
 
@@ -87,10 +111,10 @@ main {
 
 .text {
     z-index: 1;
-    width: 360px;
-    font-size: 48px;
+    width: 450px;
+    font-size: 52px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 40px;
     color: rgb(50, 117, 171);
     border: 1px solid red;
 }
@@ -101,11 +125,12 @@ main {
 
 .sign-up {
     z-index: 1;
-    height: 150px;
-    width: 80%;
-    font-size: 24px;
+    height: 140px;
+    width: 420px;
+    font-size: 30px;
     background-color: rgba(255, 255, 255, .9);
     position: relative;
+    padding: 15px 0 0 20px;
     color: rgb(87, 165, 226);
     border: 1px solid yellow;
 }
@@ -113,31 +138,37 @@ main {
 .sign-up-prompt {
     font-size: 10px;
     color: black;
+    margin-top: 10px;
     border: 1px solid blue;
 }
 
 .form-container {
     display: flex;
+    margin-top: 20px;
 }
 
 .email {
   font-size: 12px;
-  width: 150px;
+  width: 225px;
+  height: 36px;
+  margin-right: 10px;
   border: 1px solid purple;
 }
 
 .zip {
   font-size: 12px;
-  width: 45px;
+  width: 80px;
+  margin-right: 10px;
   border: 1px solid purple;
 }
 
 .join-button {
     font-size: 12px;
-    width: 50px;
+    width: 80px;
     color: white;
     text-align: center;
     background-color: rgb(232, 143, 93);
+    border-radius: 6px;
     border: 1px solid purple;
 }
 
@@ -172,7 +203,7 @@ footer {
     color: white;
     border: 1px solid white;
     text-align: center;
-    width: 260px;
+    width: 210px;
     margin-left: auto;
     margin-right: auto;
     font-size: 10px;
