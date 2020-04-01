@@ -57,8 +57,12 @@ body {
 main {
     margin: 0;
     /* background-image: url('./images/18604371049_c3763aa154_o.jpg'); */
+    position: relative;
     background-size: contain;
     overflow: hidden;
+    /* clip: rect(200px, 0, 50px, 0); */
+    /* top: 100px; */
+    /* bottom: 10%; */
 }
 
 .bottom-crop {
@@ -92,6 +96,10 @@ main {
     width: 36.359%;
     margin-left: 10%;
     position: relative;
+    overflow: hidden;
+    /* clip: rect(100px, 0, 50px, 0); */
+    top: 175px;
+
 }
 
 .text {
@@ -143,6 +151,7 @@ main {
 .zip {
   font-size: 12px;
   width: 80px;
+  height: 36px;
   margin-right: 10px;
   border: 1px solid purple;
 }
