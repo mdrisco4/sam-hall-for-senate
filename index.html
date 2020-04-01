@@ -4,45 +4,67 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css" />
     <title>Samantha Hall for Senate</title>
-    <script src="https://kit.fontawesome.com/ef015c3402.js" crossorigin="anonymous"></script>"
+    <script
+      src="https://kit.fontawesome.com/ef015c3402.js"
+      crossorigin="anonymous"
+    ></script>
+    "
   </head>
   <header>
     <div class="header-elements-container">
       <img src="./images/SamanthaHall_Logo.png" class="header-logo" />
-          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-          <div class="donate"><i class="fas fa-money-bill-wave fa-xs"></i> Donate</div>
+      <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+      <div class="donate">
+        <i class="fas fa-money-bill-wave fa-xs"></i> Donate
+      </div>
     </div>
   </header>
   <main>
     <div class="city-image-container">
-        <img src="./images/18604371049_c3763aa154_o.jpg" class="city" />
-        <div class="main-all-container">
-          <img src="./images/headshot_noBG-0.png" class="headshot" />
-          <div class="main-text-container">
-            <h1 class="text">
-              The <span class="off-color-text"> Right Choice </span><br>for Texas
-            </h1>
-            <h3 class="sign-up">
-              Join Samantha!
-              <p class="sign-up-prompt">
-                Sign up to receive the latest campaign updates.
-              </p>
-              <div class="form-container">
-                  <form class="email"><input type="text" placeholder="Email" class="email"/></form>
-                  <form class="zip"><input type="text" placeholder="Zip" class="zip"/></form>
-                  <div class="join-button">Join <span class="join-arrow">&#8250;</span></div>
-              </div>
-            </h3>
-          </div>
+      <img src="./images/18604371049_c3763aa154_o.jpg" class="city" />
+      <div class="main-all-container">
+        <img src="./images/headshot_noBG-0.png" class="headshot" />
+        <div class="main-text-container">
+          <h1 class="text">
+            The <span class="off-color-text"> Right Choice </span><br />for
+            Texas
+          </h1>
+          <h3 class="sign-up">
+            Join Samantha!
+            <p class="sign-up-prompt">
+              Sign up to receive the latest campaign updates.
+            </p>
+            <div class="form-container">
+              <form class="sign-up-form">
+                <input
+                  type="text"
+                  class="email"
+                  placeholder="Email"
+                  class="email"
+                />
+                <input
+                  type="number"
+                  class="zip"
+                  placeholder="Zip"
+                  class="zip"
+                />
+                <button onclick="checkform()" class="join-button">
+                  Join <span class="join-arrow">&#8250;</span>
+                </button>
+              </form>
+            </div>
+          </h3>
         </div>
+      </div>
     </div>
   </main>
   <footer>
     <img src="images/SamanthaHall_Logo_reversed.png" class="footer-logo" />
     <p class="address">555 Main Street, Austin, Texas 98765</p>
     <p class="privacy-policy">
-      Privacy Policy | 2016 Samantha Hall for Congress. All Rights Reserved.
+      <span class="underline">Privacy Policy</span> | &#169;2016 Samantha Hall
+      for Congress. All Rights Reserved.
     </p>
     <p class="paid-for-by">Paid for by Samantha Hall for Congress.</p>
   </footer>
