@@ -1,4 +1,4 @@
-# Landing Page
+# Landing Page Challenge
 
 ## Michael Driscoll
 
@@ -12,6 +12,12 @@ After taking a look at the mockup design I get the images onto the page and adju
 
 At this point I get the text on the page that needs to be there and the colors for the text laid out in CSS.  I also work on getting forms, buttons, icons and the opaque element with the sign up prompt and forms on it into place.  This is not done in one fell swoop but rather intermittently as I work on whatever areas i think could use attention next and somewhere in the process draw up some pen and paper mock ups of how the page can be laid out and put borders of different colors on most of the elements for reference as I move items around the page.
 
-i work 
+I work on trying to get the broader strokes done as close to the mock up as I can while slowly working into more detailed aspects.  At this point I also came across probably the biggest issue I ran into which was getting the images cropped to look as they do in the mock up which involves a little off the top and bottom of the city image and a bit off the bottom of the headshot image and getting them placed correctly and responsive without having any screen width that makes them overlap onto other elements or look awkward.  After spending a decent amount of time researching how best to approach this issue I make some progress and ultimately move to putting in breakpoints and make adjusting for responsivness a priority.  I have frequently found that some adjustments can be made for the greater good and overall look of a project when I take into account that the mockup is one size and I need to account for shrinking and growing screens and how smoothly that transitions.
+
+While I have been working the the main section's images and responsivesness I am also bouncing back and forth between getting my icons on the page with Font-Awesome and addressing little details i missed or changes I see I need to make from time to time.  With the responsiveness I run into an issue where my browser's developer tools are only showing a couple of breakpoints and figure out a way to see smaller screen sizes with no developer tools and using developer tools for the larger sizes where it works correctly.  I render the header a different color at every breakpoint to help visualize what I am doing as needed.  i also scrap some of my CSS, start a new CSS file with all breakpoints in place and use much of the styling I already wrote to help build the responsiveness from the ground up.  I methodically go through each size starting small and make adjustments where needed occasionally stopping to change the width and see how it transitions and looks overall.
+
+After that it is just a matter of putting in the time to make sure it all flows well and paying attention to catch anything I missed and focus on details.  After I am satisified with getting to a point I think the work would be ready for a pull request and code review I can work on trying to get form validation and building a small backend with a database for storing email addresses and zip codes if time allows.
 
 ### Issues and Solutions
+
+The biggest issue I ran into was the image cropping and sizing with the headshot and city image.  I spent a good amount of time on trying to get that as close to perfect as possible and ultimately settled with something I think looks good across a variety of devices.  Time alotted I feel this is an area I could get closer to precise specs if needed.  The other primary issue was getting the forms working and building a backend.  I will try and get this done Thursday morning but think realistically that I will not have enough time before the submission is due at noon on Thursday.  I think given another day to work on it I could get that up and running.
