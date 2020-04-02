@@ -152,7 +152,7 @@ main {
   text-align: center;
   background-color: rgb(232, 143, 93);
   border-radius: 6px;
-  line-height: 14\6px;
+  line-height: 14px;
 }
 
 .join-arrow {
@@ -263,7 +263,7 @@ footer {
     width: 60px;
     height: 24px;
     border-radius: 6px;
-    line-height: 20px;
+    line-height: 18px;
   }
 
   .join-arrow {
@@ -365,7 +365,7 @@ footer {
     width: 80px;
     height: 34px;
     border-radius: 6px;
-    line-height: 27px;
+    line-height: 20px;
   }
 
   .join-arrow {
@@ -466,7 +466,7 @@ footer {
 
   .join-button {
     font-size: 25px;
-    width: 80px;
+    width: 90px;
     height: 48px;
     border-radius: 6px;
     line-height: 40px;
@@ -541,7 +541,7 @@ footer {
 
   .email {
     font-size: 32px;
-    width: 330px;
+    width: 315px;
     height: 52px;
     margin-right: 15px;
   }
@@ -555,7 +555,7 @@ footer {
 
   .join-button {
     font-size: 32px;
-    width: 90px;
+    width: 110px;
     height: 56px;
     border-radius: 6px;
     line-height: 48px;
