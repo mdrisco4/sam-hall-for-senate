@@ -12,20 +12,27 @@
 //    console.log(zip)
 // }
 
-
 elementValue = document.querySelector(".email").value;
 function validateZipCode(elementValue) {
   var zipCodePattern = /^\d{5}$|^\d{5}-\d{4}$/;
   return zipCodePattern.test(elementValue);
 }
 
+
 str = document.querySelector(".email").value;
-function is_usZipCode(str) {
+
+// document.querySelector(".join-button").addEventListener('input', is_usZipCode())
+
+
+str = document.querySelector(".email").value;
+
+
+function usZipCode() {
   regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
-    str = document.querySelector(".email").value
+    str = document.querySelector(".zip").value
   if (regexp.test(str)) {
       alert("yes")
-      console.log(document.querySelector(".email").value)
+      console.log(document.querySelector(".zip").value)
     return true;
   } else {
     alert("no")
@@ -42,3 +49,5 @@ function is_usZipCode(str) {
 function checkform() {
 console.log(document.querySelector(".email").value)
 }
+
+// document.querySelector(".join-button").addEventListener('input', usZipCode())
